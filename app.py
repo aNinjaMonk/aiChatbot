@@ -3,7 +3,7 @@ import random
 import time
 from openai import OpenAI
 
-st.write("AI Chat Bot");
+st.write("My AI Chat Bot");
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 def main():
